@@ -43,7 +43,7 @@ public class Main {
         int randomaiser = random.nextInt(5);
         switch (randomaiser){
             case 1:
-                bossDamage = 0;
+                heroesHealth[4] = heroesHealth[4] + bossDamage;
                 System.out.println("Lucky");
             case 2:
 
